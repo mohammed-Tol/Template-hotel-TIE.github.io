@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@800&family=Inspiration&family=Kite+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Italianno&family=Itim&family=Oleo+Script:wght@700&family=Sedgwick+Ave&display=swap');
+
+:root{
+    --stdMar:3rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+#landingpage{
+    margin: 0 var(--stdMar);
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+}
+#HeroSection{
+    margin: auto 0;
+    color:white;
+    grid-column: 1/1;
+    gap:1rem;
+}
+.Email {
+    width: 100%;
+    background-color: #27272e;
+    text-align: center;
+    padding: 2rem 0;
+}
+.Email h2 {
+    font-size: 30px;
+    color: aquamarine;
+    margin-bottom: 2rem;
+}
+.Email button {
+    border-radius: 20%;
+    border: none;
+    padding: 27.5px 20px;
+    margin-left: -22px;
+    background-color: aquamarine;
+}
+.Email input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 20px;
+}
+#HeroText{
+    margin-left: 10%;
+    font-size: 60px;
+    font-family: 'Inspiration';
+    font-style: normal;
+    font-weight: 100;
+    color: #5F95FF;
+}
+#HeroDisc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #B5D2FF
+}
+#sear{
+    font-family: 'Kite One';
+    position: relative;
+    border: none;
+    padding: 15px;
+    align-content: center;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: blue;  
+}
+#search1{
+    margin-left: 8%;
+    background-color: aqua;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding:5px 20px;
+    position: absolute ;
+    font-family: 'Inknut Antiqua';
+    font-weight: 700;
+    font-size: 23px;
+    color: #010041;
+    justify-content: center;
+}
+#search1:hover{
+    font-size: 150%;
+}
+#imageSection{
+    height: 100vh;
+    grid-column: 2/-1;
+    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%),url("image1.jpg");
+    position:relative;
+    right:calc(-1 * var(--stdMar));
+
+    
+}
+#but{
+    margin-left: 25%;
+    margin-top: 3rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+#AboutUs{
+    margin: 0 0 20px 0;
+}
+#heading{
+    color: rgb(233, 127, 82);
+   
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 42px;
+    line-height: 20px;
+}
+#image2{
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+#image21{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#abest{
+    color: rgb(242, 63, 63);
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Sedgwick Ave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    
+}
+#discription{
+    color: rgb(243, 181, 181);
+    padding: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+}
+#home{
+    border-radius: 4px;
+    width: 55px;
+    background-color: transparent;
+    border: 0;
+    color:aquamarine;
+    font-size: 18px;
+    cursor: pointer;
+    /*padding: 0 4rem;*/
+}
+#home:hover{
+    font-weight: bold;
+}
+#Contact{
+    padding: 20px 0 0 0;
+}
+#Contact h2{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+    padding: 40px;
+}
+#Contact input{
+    margin-bottom: 15px;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.4),inset -10px -10px 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    padding: 20px;
+}
+#loginsec{
+    padding: 40px;
+    background-color: aquamarine;
+    display: grid;
+    place-items: center;
+    flex: 30%;
+}
+#image3{
+    flex: 70%;
+}
+#image3 img{
+    width: 100%;
+    height: 100%;
+}
+#submit{
+    padding: 15px 30px;
+    border-radius: 10rem;
+    margin-left: 20%;
+    border: none;
+    background-color: #2e2e44;
+    color: #fff;
+    font-size: 18px;
+}
+#submit:hover{
+    font-weight: bold;
+}
+.flex1{
+    display: flex;
+}
+#help{
+    flex: 5%;
+    margin-left: 5%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#tu,#vus{
+    text-align: center;
+    font-size: 60px;
+    background-color: aquamarine;
+    color: #5F95FF;
+    font-style: italic;
+}
+
